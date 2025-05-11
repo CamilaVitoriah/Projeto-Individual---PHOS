@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOS - Cadastro</title>
+    <link rel="stylesheet" href="Site/Style/cabecalho.css">  
+    <link rel="stylesheet" href="/Site/Style/cadastro.css">
+    <!-- css sem funcionar em pastas separadas -->
+</head>
+<body>
+ <header>
+    <div class="logo">PHOS</div>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">QUEM SOMOS</a>
+        <a href="#">LIFESTYLE</a>
+        <a href="#">PARTICIPE</a>
+    </nav>
+ </header>
+
+    <main>
+    <div class="cadastro">
+        <div class="form-cadastro">
+            <div class="cadastro-logo">
+                <img src="logo phos" alt="Logo PHOS"></div>
+                <h2 class="cadastro-titulo">Cadastrar</h2>
+
+                <label for="input_nome">Nome</label>
+                 <input type="text" id="input_nome" placeholder="Nome">
+                 <label for="input_sobrenome">Sobrenome</label>
+                 <input type="text" id="input_sobrenome" placeholder="sobrenome">
+                 <label for="input_celular">Celular</label>
+                 <input type="tel" id="input_celular" placeholder="celular">
+                 <label for="input_email">Email</label>
+                 <input type="email" id="input_email" placeholder="email">
+                 <label for="input_senha">Senha</label>
+                 <input type="text" id="input_senha" placeholder="senha">
+                 <label for="input_senha2">Confirmar Senha</label>
+                 <input type="text" id="input_senha2" placeholder="Confirme a senha">
+
+                 <p class="login-link">Já possui conta?<a href="/Site/HTML/login.HTML">Faça login</a></p>
+                 <button onclick="cadastrar()">Cadastrar</button>
+        </div>
+    </div>
+    </main>
+
+</body>
+</html>
