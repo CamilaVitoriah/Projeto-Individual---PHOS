@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #1c120a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 40px;
+  border-bottom: 2px solid #e0a246;
+  background-color: #1c120a;
+  width: 94.5%;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #e0a246;
+  font-weight: bold;
+  margin-left: 1rem;
+  width: 15%;
+  background-color: aqua;
+}
+
+nav{
+  background-color: #e0a246;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  /* margin-left: 20px; */
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

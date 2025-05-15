@@ -1,0 +1,74 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.cadastro{
+margin-top: 2rem;
+background-color:#2b1a10;
+padding: 30px;
+border-radius: 10px;
+box-sizing: 0 0 10px #000;
+width: 25rem;
+  box-shadow: 0 0 15px rgba(224, 162, 70, 0.3);
+  border: 1px solid #555;
+}
+
+.form-cadastro{
+ display: flex;
+ flex-direction: column; 
+ align-items: center;
+ justify-content: center;  
+}
+
+.cadastro-titulo{
+    text-align: center;
+    color: #e0a246;
+    margin-bottom: 30px;
+}
+
+label{
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color:#2b1a10ae;
+    border: 1px solid #888;
+    color: #ffffff;
+}
+
+input::placeholder {
+  text-align: center;
+  color: #888;
+}
+
+button{
+    padding: 10px;
+    background-color: #e0a246;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-link{
+    font-size: 0.9rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.login-link a{
+    color: #e0a246;
+    text-decoration: none;
+}
