@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat'
+}
+
+.home-fundo1{
+    /* background-color: rgb(141, 141, 218); */
+    width: 100%;
+    height: 40rem;
+}
+
+.home1-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 43%;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+.home-texto{
+  font-size: 5.4rem; 
+  color: white;
+  cursor: none;
+}
+
+#home-button{
+    background-color: #251A0D;
+    color: white;
+    height: 4rem;
+    width: 14rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: black 2px 2px 2px;
+}
+
+.home-fundo2{
+    /* background-color: rgb(155, 218, 141); */
+    width: 100%;
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.home2-titulo{
+    font-size: 3.5rem;
+    color: #e0a246;
+}
+
+.section_home-cards{
+/* background-color: rgb(127, 146, 255); */
+margin-top: 20px;
+width: 100%;
+height: 550px;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+
+}
+
+.home-card{
+    background-color: antiquewhite;
+    width: 30%;
+    height: auto;
+    margin: 1rem;
+}
+.home-text-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 217, 234);
+}
+
+.home-fundo3{
+    /* background-color: rgb(218, 204, 141); */
+    width: 100%;
+    height: 46rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.home3-titulo{
+    font-size: 3.5rem;
+    color: #e0a246;
+    display: flex;
+    justify-content: center;
+}
+
+.home3-carrosel{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    /* background-color: rgb(205, 249, 223); */
+}
+
+.home3-carrosel-voltar{
+  border: 3px solid coral;
+ width: 4rem;
+ height: 4rem;
+  margin-right: 1rem;
+}
+
+.home3-carrosel-imagem{
+ width: 85%;
+ height:100%;
+ border: 2px solid #e0a246;
+ /* background-color: #e0a246; */
+}
+
+.home3-carrosel-passar{
+ border: 3px solid coral;
+ width: 4rem;
+ height: 4rem;
+ margin-left: 1rem;
+}
+

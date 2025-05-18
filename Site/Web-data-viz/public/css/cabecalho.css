@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: #1c120a;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat';
 }
 
 header {
@@ -22,15 +22,14 @@ header {
   font-weight: bold;
   margin-left: 1rem;
   width: 15%;
-  background-color: aqua;
 }
 
 nav{
-  background-color: #e0a246;
-  width: 75%;
+  width: 35%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 30px;
 }
 
 nav a {

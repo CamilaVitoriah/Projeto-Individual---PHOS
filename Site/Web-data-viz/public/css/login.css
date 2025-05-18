@@ -1,0 +1,75 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.login-form {
+  background-color: #2b1a10;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(224, 162, 70, 0.3);
+  border: 1px solid #555;
+  width: 400px;
+  width: 25rem;
+  text-align: center;
+}
+
+.lamp-logo {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.login-titulo {
+  color: #e0a246;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1c120a;
+  color: white;
+  border: 1px solid #555;
+}
+
+input::placeholder {
+  text-align: center;
+  color: #888;
+}
+
+.cadastro-texto {
+  margin: 20px 0;
+  font-size: 0.9rem;
+}
+
+.cadastro-texto a {
+  color: #e0a246;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #e0a246;
+  color: #1c120a;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #ffc16b;
+}

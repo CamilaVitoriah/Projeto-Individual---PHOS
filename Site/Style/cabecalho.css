@@ -22,12 +22,10 @@ header {
   font-weight: bold;
   margin-left: 1rem;
   width: 15%;
-  background-color: aqua;
 }
 
 nav{
-  background-color: #e0a246;
-  width: 75%;
+  width: 35%;
   display: flex;
   justify-content: space-between;
   align-items: center;
