@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat'
+}
+
+body{
+    background-color: #fad9b5a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.box-formulario{
+    background-color: #e4b152;
+    height: auto;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    box-shadow: #7b5308 3px 3px 3px;
+}
+
+.box-formulario h1{
+color: white;
+margin-bottom: 2rem;
+color: #251A0D;
+margin-top: 1rem;
+}
+
+.perguntas{
+color: white;
+font-size: 1.2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #251A0D;
+}
+
+.alternativas{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+height: 5rem;
+margin-top: 0.4rem;
+}
+
+.button1{
+    border: 2px solid #251A0D;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    box-shadow: black 1px 1px 1px; 
+    cursor: pointer;
+}
+
+.button2{
+    border: 2px solid #251A0D;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    box-shadow: black 1px 1px 1px; 
+    cursor: pointer;
+}
+
+.button3{
+    border: 2px solid #251A0D;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    box-shadow: black 1px 1px 1px; 
+    cursor: pointer;
+}
+
+.button4{
+    border: 2px solid #251A0D;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    box-shadow: black 1px 1px 1px; 
+    cursor: pointer;
+}
+
+.button5{
+    border: 2px solid #251A0D;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    box-shadow: black 1px 1px 1px; 
+
+cursor: pointer;}
+
+.button6{
+    border: 2px solid #251A0D;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    box-shadow: black 1px 1px 1px; 
+
+cursor: pointer;}
+
+.button7{
+    border: 2px solid #251A0D;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    box-shadow: black 1px 1px 1px; 
+
+cursor: pointer;}
+
+.alternativa-legenda{
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.linha{
+    background-color: #684d1b;
+    width: 80%;
+    height: 2px;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    box-shadow: #d2b47d 1px 1px 1px;
+}
+
+.button_emocoes, .button_conexao{
+    height: 2.5rem;
+    width: 5.5rem;
+    background-color: white(255, 146, 3);
+    border:2px solid #251A0D;
+    box-shadow: #251A0D 1px 1px 1px;
+    background-color: #eae3dc;
+    cursor: pointer;
+}
+
+.button_emocoes:hover, .button_conexao:hover{
+    background-color: #d2d2f4;
+    border: 2px solid #8a8af0;
+}
+
+.button7:hover, .button6:hover, .button5:hover,.button4:hover, .button3:hover,.button2:hover,.button1:hover{
+    background-color: #d2d2f4;
+    border: 2px solid #8a8af0;
+}
+
+.linha-final{
+    margin-bottom: 2rem;
+}
