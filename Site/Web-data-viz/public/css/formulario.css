@@ -42,6 +42,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 color: #251A0D;
+font-weight: bold;
 }
 
 .alternativas{
@@ -144,14 +145,34 @@ cursor: pointer;}
 
 .button_emocoes:hover, .button_conexao:hover{
     background-color: #d2d2f4;
-    border: 2px solid #8a8af0;
+    border: 2px solid #5b5be1;
+    color: #4242d0;
 }
 
 .button7:hover, .button6:hover, .button5:hover,.button4:hover, .button3:hover,.button2:hover,.button1:hover{
     background-color: #d2d2f4;
-    border: 2px solid #8a8af0;
+    border: 2px solid #5b5be1;
 }
 
 .linha-final{
     margin-bottom: 2rem;
+}
+
+.buttonEnviar{
+    height: 3rem;
+    width: 10.5rem;
+    background-color: white(255, 146, 3);
+    border:2px solid #251A0D;
+    box-shadow: #251A0D 1px 1px 1px;
+    background-color: #eae3dc;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttonEnviar:hover{
+    background-color: rgb(167, 239, 177);
+    border: 2px solid #096b18;
+    color: #096b18;
 }

@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monitamento Diário</title>
-    <link rel="stylesheet" href="./css/formulario.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monitamento Diário</title>
+        <link rel="stylesheet" href="./css/formulario.css">
 </head>
 <body>
     <div class="box-formulario">
     <h1>Monitoramento Diário</h1>
 
-<!-- 🤝 Muito sociável
-
-👂 Acolhido e compreendido
-
-😶 Indiferente
-
-🙃 Tímido/Reservado
-
-😠 Conflituoso -->
     <div class="perguntas">Como você se sente hoje?
         <div class="alternativas">
-        <button class="button_emocoes" onclick="p1_cansado">Cansado</button>
-        <button class="button_emocoes" onclick="p1_triste">Triste</button>
-        <button class="button_emocoes" onclick="p1_neutro">Neutro</button>
-        <button class="button_emocoes" onclick="p1_feliz">Feliz</button>
-        <button class="button_emocoes" onclick="p1_disposto">Disposto</button>
+        <button class="button_emocoes" id="emocoes1" onclick="bt_1perguntas1()">Cansado</button>
+        <button class="button_emocoes" id="emocoes2" onclick="bt_1perguntas2()">Triste</button>
+        <button class="button_emocoes" id="emocoes3" onclick="bt_1perguntas3()">Neutro</button>
+        <button class="button_emocoes" id="emocoes4" onclick="bt_1perguntas4()">Feliz</button>
+        <button class="button_emocoes" id="emocoes5" onclick="bt_1perguntas5()">Disposto</button>
     </div></div>
 
        <div class="linha"></div>
 
     <div class="perguntas">Como está sua conexão com outras pessoas hoje?
         <div class="alternativas">
-        <button class="button_conexao" onclick="p1_cansado">Sociável</button>
-        <button class="button_conexao" onclick="p1_triste">Compreensão</button>
-        <button class="button_conexao" onclick="p1_neutro">Indiferente</button>
-        <button class="button_conexao" onclick="p1_feliz">Reservado</button>
-        <button class="button_conexao" onclick="p1_disposto">Conflituoso</button>
+        <button class="button_conexao" onclick="bt_2perguntas1()">Sociável</button>
+        <button class="button_conexao" onclick="bt_2perguntas2()">Compreensão</button>
+        <button class="button_conexao" onclick="bt_2perguntas3()">Indiferente</button>
+        <button class="button_conexao" onclick="bt_2perguntas4()">Reservado</button>
+        <button class="button_conexao" onclick="bt_2perguntas5()">Conflituoso</button>
     </div>
     </div>
 
@@ -45,13 +36,13 @@
     <div class="perguntas">Como foi o impacto das pessoas no seu dia?
         <div class="alternativas">
             <p class="alternativa-legenda">Negativo</p>
-            <button class="button1" onclick="p2_1"></button>
-            <button class="button2" onclick="p2_2"></button>
-            <button class="button3" onclick="p2_3"></button>
-            <button class="button4" onclick="p2_4"></button>
-            <button class="button5" onclick="p2_5"></button>
-            <button class="button6" onclick="p2_6"></button>
-            <button class="button7" onclick="p2_7"></button>
+            <button class="button1" onclick="bt_3perguntas1()"></button>
+            <button class="button2" onclick="bt_3perguntas2()"></button>
+            <button class="button3" onclick="bt_3perguntas3()"></button>
+            <button class="button4" onclick="bt_3perguntas4()"></button>
+            <button class="button5" onclick="bt_3perguntas5()"></button>
+            <button class="button6" onclick="bt_3perguntas6()"></button>
+            <button class="button7" onclick="bt_3perguntas7()"></button>
             <p class="alternativa-legenda">Positivo</p>
     </div></div>
 
@@ -60,13 +51,13 @@
     <div class="perguntas">O quanto você impactou na vida de outra pessoa?
             <div class="alternativas">
             <p class="alternativa-legenda">Negativo</p>
-            <button class="button1" onclick="p2_1"></button>
-            <button class="button2" onclick="p2_2"></button>
-            <button class="button3" onclick="p2_3"></button>
-            <button class="button4" onclick="p2_4"></button>
-            <button class="button5" onclick="p2_5"></button>
-            <button class="button6" onclick="p2_6"></button>
-            <button class="button7" onclick="p2_7"></button>
+            <button class="button1" onclick="bt_4perguntas1()"></button>
+            <button class="button2" onclick="bt_4perguntas2()"></button>
+            <button class="button3" onclick="bt_4perguntas3()"></button>
+            <button class="button4" onclick="bt_4perguntas4()"></button>
+            <button class="button5" onclick="bt_4perguntas5()"></button>
+            <button class="button6" onclick="bt_4perguntas6()"></button>
+            <button class="button7" onclick="bt_4perguntas7()"></button>
             <p class="alternativa-legenda">Positivo</p>
     </div></div>
 
@@ -74,40 +65,43 @@
 
     <div class="perguntas">Quantas pessoas você acredita ter impactado positivamente hoje?
         <div class="alternativas">
-        <button class="button_conexao" onclick="p1_cansado">1</button>
-        <button class="button_conexao" onclick="p1_triste">2</button>
-        <button class="button_conexao" onclick="p1_neutro">3</button>
-        <button class="button_conexao" onclick="p1_feliz">4</button>
-        <button class="button_conexao" onclick="p1_disposto">5 ou mais</button>
+        <button class="button_conexao" onclick="bt_5perguntas1()">1</button>
+        <button class="button_conexao" onclick="bt_5perguntas2()">2</button>
+        <button class="button_conexao" onclick="bt_5perguntas3()">3</button>
+        <button class="button_conexao" onclick="bt_5perguntas4()">4</button>
+        <button class="button_conexao" onclick="bt_5perguntas5()">5 ou mais</button>
     </div>
     </div>
 
-       <div class="linha"></div>
+       <!-- <div class="linha"></div>
 
     <div class="perguntas">Hoje, você conseguiu enxergar beleza ou valor em alguém?
-        <div class="perguntas">Quantas pessoas você acredita ter impactado positivamente hoje?
         <div class="alternativas">
         <button class="button_conexao" onclick="p1_sim">Sim</button>
         <button class="button_conexao" onclick="p1_nao">Não</button>
         <button class="button_conexao" onclick="p1_neutro">Não Reparei</button>
     </div>
-    </div></div>
+    </div> -->
 
        <div class="linha"></div>
 
         <div class="perguntas">O quanto você se sentiu útil ou com propósito hoje?
                     <div class="alternativas">
             <p class="alternativa-legenda">Negativo</p>
-            <button class="button1" onclick="p2_1"></button>
-            <button class="button2" onclick="p2_2"></button>
-            <button class="button3" onclick="p2_3"></button>
-            <button class="button4" onclick="p2_4"></button>
-            <button class="button5" onclick="p2_5"></button>
-            <button class="button6" onclick="p2_6"></button>
-            <button class="button7" onclick="p2_7"></button>
+            <button class="button1" onclick="bt_6perguntas1()"></button>
+            <button class="button2" onclick="bt_6perguntas2()"></button>
+            <button class="button3" onclick="bt_6perguntas3()"></button>
+            <button class="button4" onclick="bt_6perguntas4()"></button>
+            <button class="button5" onclick="bt_6perguntas5()"></button>
+            <button class="button6" onclick="bt_6perguntas6()"></button>
+            <button class="button7" onclick="bt_6perguntas7()"></button>
             <p class="alternativa-legenda">Positivo</p>
         </div>
     </div>
                 <div class="linha-final"></div>
+
+             <button class="buttonEnviar" onclick="enviarFormulario()">Enviar Formulario</button>
 </body>
 </html>
+
+        <script src="./js/formulario.js"></script>
