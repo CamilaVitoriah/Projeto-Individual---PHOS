@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../public/css/dash.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
     <div class="dash-topo">
         <H2>DASHBOARD</H2>
@@ -24,23 +26,30 @@
 
     <div class="linha-indicadores">
         <div class="boxiindicadores">
+            Média pergunta1
         </div>
     
         <div class="boxiindicadores">
+            Média Pergunta2
+        </div>
+
+        <div class="boxiindicadores">
+            Média Pergunta3  
         </div>
 
         <div class="boxiindicadores">  
-        </div>
-
-        <div class="boxiindicadores">  
+            Média Pergunta4
         </div>
     </div>
 
     <div class="box-do-principal">
     <div class="grafico-principal">
         <h2>Impacto dos seus dias</h2>
-        <div class="box-grafico"></div>
+        <div class="box-grafico">
+             <canvas id="graficoLinha"></canvas>
+        </div>
     </div></div>
+    <script src="../js/dash.js"></script>
 </body>
 </html>
 

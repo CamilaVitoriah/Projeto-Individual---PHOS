@@ -1,15 +1,20 @@
 var formularioModel = require("../models/formularioModel");
 
 function cadastrar(req, res) {
-    var { perguntasUm, perguntasDois, perguntasTres, perguntasQuatro, perguntasCinco, perguntasSeis } = req.body;
+    const { perguntasUm, perguntasDois, perguntasTres, perguntasQuatro, perguntasCinco, perguntasSeis, fkUsuario } = req.body;
+
+    console.log("Dados recebidos no formulário:", req.body);
 
     formularioModel.cadastrarFormulario(perguntasUm, perguntasDois, perguntasTres, perguntasQuatro, perguntasCinco, perguntasSeis)
-        .then(function (resultado) {
-            res.status(200).json({ mensagem: "Formulário cadastrado com sucesso!", resultado });
+        .then(() => {
+            return formularioModel.cadastrarResultado(fkUsuario);
         })
-        .catch(function (erro) {
+        .then(() => {
+            res.status(200).json({ mensagem: "Formulário e resultado cadastrados com sucesso!" });
+        })
+        .catch(erro => {
             console.log(erro);
-            res.status(500).json({ mensagem: "Erro ao cadastrar formulário.", erro });
+            res.status(500).json({ mensagem: "Erro ao cadastrar.", erro });
         });
 }
 

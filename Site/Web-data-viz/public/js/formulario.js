@@ -134,8 +134,9 @@ function bt_6perguntas7(){
 function finalizar(){
     
 }
-
 function enviarFormulario() {
+const fkUsuario = sessionStorage.ID_USUARIO;
+
     fetch("/formulario/cadastrar", {
         method: "POST",
         headers: {
@@ -147,18 +148,20 @@ function enviarFormulario() {
             perguntasTres: perguntasTres,
             perguntasQuatro: perguntasQuatro,
             perguntasCinco: perguntasCinco,
-            perguntasSeis: perguntasSeis
+            perguntasSeis: perguntasSeis,
+            fkUsuario
         })
     })
-    .then(response => {
-        if (response.ok) {
+    .then(resposta => {
+        if (resposta.ok) {
             alert("Formulário enviado com sucesso!");
+            window.location = "dashboard.html";
         } else {
             alert("Houve um erro ao enviar o formulário.");
+            console.error(resposta);
         }
     })
-    .catch(error => {
-        console.error("Erro na requisição:", error);
+    .catch(erro => {
+        console.log("Erro na requisição:", erro);
     });
 }
-

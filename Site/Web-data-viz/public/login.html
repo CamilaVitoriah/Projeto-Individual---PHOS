@@ -83,9 +83,7 @@
 </body>
 
 </html>
-
 <script>
-
 
     function entrar() {
         aguardar();
@@ -126,10 +124,10 @@
                     console.log(JSON.stringify(json));
                     sessionStorage.EMAIL_USUARIO = json.email;
                     sessionStorage.NOME_USUARIO = json.nome;
-                    sessionStorage.ID_USUARIO = json.id;
+                    sessionStorage.ID_USUARIO = json.idUsuario;
                     
                     setTimeout(function () {
-                        window.location.href = "./dashboard/cards.html";
+                        window.location.href = "./formulario.HTML";
                     }, 1000); // apenas para exibir o loading
 
                 });
