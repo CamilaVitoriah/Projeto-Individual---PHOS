@@ -19,26 +19,17 @@
 
     <!--Header-->
 
-    <div class="header">
-        <div class="container">
-            <h1 class="titulo">AquaTech</h1>
-            <ul class="navbar">
-                <li>
-                    <a href="index.html">Inicial</a>
-                </li>
-                <li>
-                    <a href="formulario.HTML">Simulador</a>
-                </li>
-                <li>|</li>
-                <li class="agora">
-                    <a href="#">Login</a>
-                </li>
-                <li>
-                    <a href="cadastro.html">Cadastro</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+     <header>
+    <div class="logo">PHOS</div>
+    <nav>
+        <a href="home.HTML">HOME</a>
+        <a href="sobre.html">QUEM SOMOS</a>
+        <a href="lifestyle.HTML">LIFESTYLE</a>
+        <a href="cadastro.html">PARTICIPE</a>
+    </nav>
+ </header> 
+
+ <!-- Fim do Header -->
 
 
     <div class="login">
@@ -127,8 +118,8 @@
                     sessionStorage.ID_USUARIO = json.idUsuario;
                     
                     setTimeout(function () {
-                        window.location.href = "./formulario.HTML";
-                    }, 1000); // apenas para exibir o loading
+                        window.location.href = "./dashboard.HTML";
+                    }, 1000);
 
                 });
 

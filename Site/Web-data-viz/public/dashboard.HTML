@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../public/css/dash.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/grafico.js"></script>
+    <link rel="stylesheet" href="dash.css">
 </head>
 
 <body>
@@ -26,19 +27,28 @@
 
     <div class="linha-indicadores">
         <div class="boxiindicadores">
-            Média pergunta1
+            <div class="titulo_indicadores">
+        Tem se sentido</div>
+           <div id="indicador1"></div>
         </div>
     
         <div class="boxiindicadores">
-            Média Pergunta2
+            <div class="titulo_indicadores">
+        Interação com as pessoas</div>
+           <div id="indicador2"></div>
         </div>
 
         <div class="boxiindicadores">
-            Média Pergunta3  
+            <div class="titulo_indicadores">
+        Pessoas beneficiadas
+    </div>
+           <div id="indicador3"></div>
         </div>
 
-        <div class="boxiindicadores">  
-            Média Pergunta4
+        <div class="boxiindicadores"> 
+            <div class="titulo_indicadores">
+        Senso de propósito</div> 
+           <div id="indicador4"></div>
         </div>
     </div>
 
@@ -49,8 +59,9 @@
             <canvas id="myChart"></canvas>
         </div>
     </div></div>
-    <script src="../js/dash.js"></script>
+
 </body>
 </html>
 
+    <script src="../js/dash.js"></script>
 

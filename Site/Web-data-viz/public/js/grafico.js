@@ -1,31 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><Chat class="Chart.js"></Chat></title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="chart-container">
-        <div class="chart-box">
-            <h2>Pergunta 6</h2>
-            <canvas id="myChart"></canvas>
-        </div>
-    
-        <div class="chart-box">
-            <h2>Temperatura e Umidade - Meses</h2>
-            <canvas id="myChart2"></canvas>
-        </div>
-    </div>
-</body>
-
-
-
-</html>
-
-<script>
  function gerarGrafico() {
     fetch("/dash/grafico")
         .then(res => res.json())
@@ -72,4 +44,3 @@
 window.onload = function () {
     gerarGrafico();
 };
-    </script>

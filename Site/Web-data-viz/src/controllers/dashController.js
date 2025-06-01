@@ -1,22 +1,61 @@
-var formularioModel = require("../models/formularioModel");
+var dashModel = require("../models/dashModel");
 
-function buscarDados(req, res) {
-    const fkUsuario = req.params.fkUsuario;
-
-    formularioModel.buscarUltimosDados(fkUsuario)
+function obterDadosGrafico(req, res) {
+    dashModel.obterDadosGrafico()
         .then(resultado => {
-            if (resultado.length > 0) {
-                res.status(200).json(resultado);
-            } else {
-                res.status(204).send("Nenhum resultado encontrado!");
-            }
-        })
-        .catch(erro => {
+            res.status(200).json(resultado);
+        }).catch(erro => {
             console.log(erro);
             res.status(500).json(erro.sqlMessage);
         });
 }
 
+
+function obterDadosIndicador1(req, res) {
+    dashModel.obterDadosIndicador1()
+        .then(resultado => {
+            res.status(200).json(resultado);
+        }).catch(erro => {
+            console.log(erro);
+            res.status(500).json(erro.sqlMessage);
+        });
+}
+
+function obterDadosIndicador2(req, res) {
+    dashModel.obterDadosIndicador2()
+        .then(resultado => {
+            res.status(200).json(resultado);
+        }).catch(erro => {
+            console.log(erro);
+            res.status(500).json(erro.sqlMessage);
+        });
+}
+
+function obterDadosIndicador3(req, res) {
+    dashModel.obterDadosIndicador3()
+        .then(resultado => {
+            res.status(200).json(resultado);
+        }).catch(erro => {
+            console.log(erro);
+            res.status(500).json(erro.sqlMessage);
+        });
+}
+
+function obterDadosIndicador4(req, res) {
+    dashModel.obterDadosIndicador4()
+        .then(resultado => {
+            res.status(200).json(resultado);
+        }).catch(erro => {
+            console.log(erro);
+            res.status(500).json(erro.sqlMessage);
+        });
+}
+
+
 module.exports = {
-    buscarDados
+    obterDadosGrafico,
+    obterDadosIndicador1,
+    obterDadosIndicador2,
+    obterDadosIndicador3,
+    obterDadosIndicador4
 };

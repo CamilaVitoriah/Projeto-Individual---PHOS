@@ -1,10 +1,28 @@
 var express = require("express");
 var router = express.Router();
 
-var formularioController = require("../controllers/formularioController");
+var dashController = require("../controllers/dashController");
 
-router.get("/buscar/:fkUsuario", function (req, res) {
-    formularioController.buscarDados(req, res);
+router.get("/grafico", function (req, res) {
+    dashController.obterDadosGrafico(req, res);
 });
+
+router.get("/DadosIndicador1", function (req, res) {
+    dashController.obterDadosIndicador1(req, res);
+});
+
+router.get("/DadosIndicador2", function (req, res) {
+    dashController.obterDadosIndicador2(req, res);
+});
+
+router.get("/DadosIndicador3", function (req, res) {
+    dashController.obterDadosIndicador3(req, res);
+});
+
+router.get("/DadosIndicador4", function (req, res) {
+    dashController.obterDadosIndicador4(req, res);
+});
+
+
 
 module.exports = router;

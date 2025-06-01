@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(102, 62, 9);
+    background-color: rgb(231, 222, 143);
 }
 
 .dash-topo{
@@ -87,6 +87,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    border: 2px solid rgb(82, 34, 29);
+    margin-top: 2rem;
 }
 
 
@@ -100,11 +102,46 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
+
+/* .grafico-principal h2{
+    margin-top: 3rem;
+} */
 
 .box-grafico{
     width: 80%;
     height: 90%;
-    border: 2px solid royalblue;
-    margin-bottom: 2.25rem;
+    border: 2px solid rgb(3, 54, 64);
+    margin-bottom: 3.25rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-grafico canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.boxiindicadores{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#indicador1, #indicador2, #indicador3, #indicador4{
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.titulo_indicadores{
+    height: 2rem;
+    font-size: 1.5rem;
 }
