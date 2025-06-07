@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat'
 }
 
-.home-fundo1{
-    background-image: url(../../../Assets/Imagens/PHOS\ imagem.png); 
+.home-fundo1 {
+    /* background-image: url(../../../Assets/Imagens/PHOS\ imagem.png); */
     width: 100%;
     height: 40rem;
 }
 
-.home1-info{
+.home1-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,13 +21,13 @@
     align-items: center;
 }
 
-.home-texto{
-  font-size: 5.4rem; 
-  color: white;
-  cursor: none;
+.home-texto {
+    font-size: 5.4rem;
+    color: white;
+    cursor: none;
 }
 
-#home-button{
+#home-button {
     background-color: #251A0D;
     color: white;
     height: 4rem;
@@ -38,7 +38,7 @@
     box-shadow: black 2px 2px 2px;
 }
 
-.home-fundo2{
+.home-fundo2 {
     /* background-color: rgb(155, 218, 141); */
     width: 100%;
     height: 42rem;
@@ -48,36 +48,37 @@
     border: 2px solid white;
 }
 
-.home2-titulo{
+.home2-titulo {
     font-size: 3.5rem;
     color: #e0a246;
 }
 
-.section_home-cards{
-/* background-color: rgb(127, 146, 255); */
-margin-top: 20px;
-width: 100%;
-height: 550px;
-display: flex;
-justify-content: space-between;
-flex-direction: row;
+.section_home-cards {
+    /* background-color: rgb(127, 146, 255); */
+    margin-top: 20px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 
 }
 
-.home-card{
+.home-card {
     background-color: antiquewhite;
     width: 30%;
     height: auto;
     margin: 1rem;
 }
-.home-text-card{
+
+.home-text-card {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(226, 217, 234);
 }
 
-.home-fundo3{
+.home-fundo3 {
     /* background-color: rgb(218, 204, 141); */
     width: 100%;
     height: 46rem;
@@ -85,14 +86,14 @@ flex-direction: row;
     flex-direction: column;
 }
 
-.home3-titulo{
+.home3-titulo {
     font-size: 3.5rem;
     color: #e0a246;
     display: flex;
     justify-content: center;
 }
 
-.home3-carrosel{
+.home3-carrosel {
     width: 100%;
     height: 80%;
     display: flex;
@@ -103,56 +104,30 @@ flex-direction: row;
     /* background-color: rgb(205, 249, 223); */
 }
 
-.home3-carrosel-voltar{
-  border: 3px solid coral;
- width: 4rem;
- height: 4rem;
-  margin-right: 1rem;
+.home3-carrosel-voltar {
+    border: 3px solid coral;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
 }
 
-.home3-carrosel-imagem{
- width: 85%;
- height:100%;
- border: 2px solid #e0a246;
- /* background-color: #e0a246; */
+.home3-carrosel-imagem {
+    width: 85%;
+    height: 100%;
+    border: 2px solid #e0a246;
+    /* background-color: #e0a246; */
 }
 
-.home3-carrosel-passar{
- border: 3px solid coral;
- width: 4rem;
- height: 4rem;
- margin-left: 1rem;
+.home3-carrosel-passar {
+    border: 3px solid coral;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
 }
 
 
-.home-fundo2{
-    width: 100%;
-    height: 40rem; 
-    gap: 0.9rem;
-    flex-direction: row;
-}
 
-.texto-lifestyle {
- width: 45%;
- height: 70%;
- margin: 2rem;
- margin-left: 3rem;
- text-align: justify;
- line-height:2.0rem;
- /* background-color: #e0a246; */
-}
-
-.texto-lifestyle h2{
-    font-size: 3rem;
-    margin-bottom: 2.5rem;
-    /* background-color: rebeccapurple; */
-}
-
-.texto-lifestyle p{
-    font-size: 1.3rem;
-}
-
-.img-lifestyle{
+.img-lifestyle {
     height: 75%;
     width: 35%;
     background-color: antiquewhite;
@@ -160,37 +135,88 @@ flex-direction: row;
     border: 2px solid sienna;
 }
 
-.life-fundo1{
+.life-fundo1 {
     width: 100%;
     height: 50rem;
-    display: flex;
-    border: 2px solid red;
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    background-image: url(../assets/imagem/evanlismo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.life-info{
+.life-info {
     width: 75%;
     font-size: 2.4rem;
     margin: 2.4rem;
-    border: 2px solid honeydew;
+    /* border: 2px solid honeydew; */
     text-align: justify;
-    
 }
 
-#life-button{
-height: 4rem;
-width: 7rem;
-background-color: rebeccapurple;
+#life-button {
+    height: 5rem;
+    width: 12rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #251A0D;
+    border: 2px solid white;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 18px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
-.life-box1{
 
+.linha-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.life-fundo2{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.texto-lifestyle h2{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-lifestyle p{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 70%;
+    margin: 2rem;
+    text-align: justify;
+    line-height: 2.0rem;
+    /* background-color: blue; */
+}
+
+.texto-lifestyle {
+    width: 75%;
+    height: 70%;
+    margin: 2rem;
+    text-align: justify;
+    line-height: 2.0rem;
+    /* background-color: #e0a246; */
+}
+
+.texto-lifestyle h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    /* background-color: rebeccapurple; */
 }

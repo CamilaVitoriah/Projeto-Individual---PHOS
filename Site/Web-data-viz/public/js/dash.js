@@ -83,7 +83,7 @@ fetch(`/formulario/buscar/${fkUsuario}`)
     .then(dados => {
         var indicador2 = Number(Math.round(dados[0].indicador2));
         var mensagem2 = ``
-        var lista_p2 = ['Sem Resposta','Cansado', 'Triste', 'Neutro', 'Feliz', 'Disposto']
+        var lista_p2 = ['Sem Resposta','Sociável','Compreensão', 'Indiferente', 'Resarvado', 'Conflituoso']
         
 
             for (var i =0; i < lista_p2.length; i++){
@@ -120,7 +120,7 @@ fetch(`/formulario/buscar/${fkUsuario}`)
     .then(dados => {
         var indicador3 = Number(Math.round(dados[0].indicador3));
         var mensagem3 = ``
-        var lista_p3= ['Sem Resposta','Cansado', 'Triste', 'Neutro', 'Feliz', 'Disposto']
+        var lista_p3= ['Sem Resposta','1','2', '3', '4', '5']
         
 
             for (var i =0; i < lista_p3.length; i++){
@@ -157,7 +157,7 @@ fetch(`/formulario/buscar/${fkUsuario}`)
     .then(dados => {
         var indicador4 = Number(Math.round(dados[0].indicador4));
         var mensagem4 = ``
-        var lista_p4 = ['Sem Resposta','Cansado', 'Triste', 'Neutro', 'Feliz', 'Disposto']
+        var lista_p4 = ['Sem Resposta','Péssimo','Fraco', 'Ruim', 'Neutro','Razoável', 'Bom', 'Ótimo']
         
 
             for (var i =0; i < lista_p4.length; i++){
