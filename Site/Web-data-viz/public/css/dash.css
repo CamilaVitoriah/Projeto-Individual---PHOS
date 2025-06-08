@@ -38,20 +38,21 @@
     font-size: 0.8rem;
     border-radius: 12px;
     background-color: #e0a246;
-    box-shadow:1px 1px 1px #e0a246;
-    border: #df9c38;
+    box-shadow:1px 1px 1px #df8f17;
+    border:1px solid #df8f17;
 }
 
 .dash-usuario{
     /* border: coral solid 2px; */
     margin-left: 5rem;
-    height: 5rem;
+    height: 4.5rem;
     width: 15rem;
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: row;
     border-radius: 1rem;
+    border: 1px solid #e2c292;
 
 }
 
@@ -63,7 +64,8 @@
     width: 4rem;
     height: 3rem;
     border-radius: 1rem;
-    border: 2px solid gold;
+    border: 1px solid #e2c292;
+    background-image: url(../assets/imagem/fmt-usuario.png);
 }
 
 .nome-usuario{
@@ -166,23 +168,23 @@
 }
 
 .boxiindicadores1{
-    background-color: #e2c292;
+    background-color: #d1b07f;
     border:2px solid #d2ab71;
     box-shadow: 2px 2px 2px #df9019;
 }
 
 .boxiindicadores2{
-    background-color: #d6a965;
+    background-color: #d39f4f;
     box-shadow: 2px 2px 2px #df9019;
 }
 
 .boxiindicadores3{
-    background-color: #e0a246;
+    background-color: #d29436;
     box-shadow: 2px 2px 2px #df9019;
 }
 
 .boxiindicadores4{
-    background-color: #df9019;
+    background-color: #d88507;
     box-shadow: 2px 2px 2px #df9019;
 }
 
