@@ -13,10 +13,11 @@
                 data: {
                     labels: labels,
                     datasets: [{
-                        label: 'Impacto dos seus dias',
+                        label: 'Impacto',
                         data: valores,
                         fill: false,
                         borderColor: 'rgb(216, 142, 30)',
+                        backgroundColor: 'rgb(216, 142, 30)' ,
                         tension: 0.3
                     },
                     {
