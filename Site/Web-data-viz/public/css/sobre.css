@@ -128,15 +128,16 @@ flex-direction: row;
 .home-fundo2{
     width: 100%;
     height: 40rem; 
-    gap: 0.9rem;
+    gap: 1.4rem;
     flex-direction: row;
+    display: flex;
 }
 
 .texto-lifestyle {
  width: 45%;
  height: 70%;
  margin: 2rem;
- margin-left: 3rem;
+ margin-left: 4rem;
  text-align: justify;
  line-height:2.0rem;
  /* background-color: #e0a246; */
@@ -152,11 +153,31 @@ flex-direction: row;
     font-size: 1.3rem;
 }
 
-.img-lifestyle{
+.img-lifestyle1{
     height: 75%;
     width: 35%;
     background-color: antiquewhite;
     margin: 2rem;
     border: 2px solid sienna;
-    background-image: url(../assets/imagem/equipe4.png);
+    background-image: url(../assets/imagem/fmt-att-equipe.png);
 }
+
+.img-lifestyle2{
+    margin-left: 4rem;
+    height: 75%;
+    width: 35%;
+    background-color: antiquewhite;
+    margin: 2rem;
+    border: 2px solid sienna;
+    background-image: url(../assets/imagem/fmt-objetivo.png);
+}
+
+.img-lifestyle3{
+    height: 75%;
+    width: 35%;
+    background-color: antiquewhite;
+    margin: 2rem;
+    border: 2px solid sienna;
+    background-image: url(../assets/imagem/fmt-eu.png);
+}
+

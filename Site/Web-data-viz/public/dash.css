@@ -8,7 +8,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* border: coral solid 2px; */
+    border: coral solid 2px;
     height: 6rem;
 }
 
@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 52rem;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 .dashboard-topo{
@@ -66,7 +66,7 @@
 .linha-indicadores{
    height: 7rem;
    width: 100%;
-   /* border: 2px solid crimson; */
+   border: 2px solid crimson;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -96,7 +96,7 @@
 .grafico-principal{
     width: 90%;
     height: 27rem;
-    /* border: 2px solid seagreen; */
+    border: 2px solid seagreen;
     margin-top: 3rem;
 
     display: flex;
@@ -113,7 +113,7 @@
 .box-grafico{
     width: 80%;
     height: 90%;
-    /* border: 2px solid rgb(3, 54, 64); */
+    border: 2px solid rgb(3, 54, 64);
     margin-bottom: 3.25rem;
     display: flex;
     justify-self: center;

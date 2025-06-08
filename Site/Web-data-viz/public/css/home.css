@@ -67,19 +67,22 @@ margin-right: 4rem;
 }
 
 .home-card{
-    background-color: antiquewhite;
+    background-color: rgb(247, 237, 224);
+    border: 2px solid #E0A246;
     width: 30%;
     height: auto;
     margin: 1rem;
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-radius: 18px;
+    box-shadow: 2px 2px 2px #E0A246;
 }
 
 .home-card img{
     width: 80%;
     height: 60%;
-    border: 2px solid royalblue;
+    border: 2px solid #E0A246;
     margin-top: 2rem;
 }
 
@@ -108,7 +111,7 @@ margin-top: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(226, 217, 234);
+    background-color: #d6c19e;
 }
 
 .home-fundo3{
@@ -167,7 +170,7 @@ margin-top: 8px;
 .img1{
     width: 80%;
     height: 60%;
-    border: 2px solid royalblue;
+    border: 2px solid #E0A246;
     margin-top: 2rem;
     background-image: url(../assets/imagem/fmt-cruz.png);
 }
@@ -175,7 +178,7 @@ margin-top: 8px;
 .img2{
     width: 80%;
     height: 60%;
-    border: 2px solid royalblue;
+    border: 2px solid #E0A246;
     margin-top: 2rem;
     background-image: url(../assets/imagem/fmt-ouvir.png);
 }
@@ -183,7 +186,7 @@ margin-top: 8px;
 .img3{
     width: 80%;
     height: 60%;
-    border: 2px solid royalblue;
+    border: 2px solid #E0A246;
     margin-top: 2rem;
     background-image: url(../assets/imagem/fmt-ajudar.png);
 }
