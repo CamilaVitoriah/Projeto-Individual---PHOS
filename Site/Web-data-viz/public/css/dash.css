@@ -1,5 +1,6 @@
 *{
-    background-color: rgb(102, 62, 9);
+    background-color: #251A0D;
+    color: white;
 }
 
 .dash-topo{
@@ -17,24 +18,26 @@
     align-items: center;
     justify-content: center;
     margin-right: 52rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .dashboard-topo{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: coral solid 2px;
+    /* border: coral solid 2px; */
 }
 
-.button_monitoramento{
-    width: 10rem;
-    height: 5rem;
-    background-color: bisque;
+#button_monitoramento{
+    width: 7.5rem;
+    height: 2.7rem;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    background-color: #e0a246;
 }
 
 .dash-usuario{
-    border: coral solid 2px;
+    /* border: coral solid 2px; */
     margin-left: 5rem;
     height: 5rem;
     width: 15rem;
@@ -64,34 +67,42 @@
 
 .linha-indicadores{
    height: 7rem;
-   width: 100%;
-   border: 2px solid crimson;
+   width: 98%;
+   /* border: 2px solid crimson; */
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-self: center;
    gap: 2.5rem;
    margin-top: 3rem;
+   margin-left: 15px;
+   margin-right: 10px;
    /* margin-left: 2rem;
    margin-right: 2rem; */
 }
 
-.boxiindicadores{
+.boxiindicadores1, .boxiindicadores2, .boxiindicadores3, .boxiindicadores4{
     height: auto;
     width: 18rem;
-    border: 2px solid cornflowerblue;
+    border: coral solid 2px;
+    /* background-color: #e0a246; */
+    border-radius: 20px;
+    color: white;
 }
+
 
 .box-do-principal{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    border: 2px solid rgb(82, 34, 29);
+    margin-top: 2rem;
 }
 
 
 .grafico-principal{
-    width: 90%;
+    width: 80%;
     height: 27rem;
     border: 2px solid seagreen;
     margin-top: 3rem;
@@ -100,11 +111,66 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
 
+/* .grafico-principal h2{
+    margin-top: 3rem;
+} */
+
 .box-grafico{
-    width: 80%;
-    height: 90%;
-    border: 2px solid royalblue;
-    margin-bottom: 2.25rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(3, 54, 64);
+    margin-bottom: 3.25rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-grafico canvas {
+    width: 90% !important;
+    height: 100%;
+    background-color: #dbd0bf;
+}
+
+.boxiindicadores1, .boxiindicadores2, .boxiindicadores3, .boxiindicadores4{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxiindicadores1{
+    background-color: #e2c292;
+}
+
+.boxiindicadores2{
+    background-color: #d6a965;
+}
+
+.boxiindicadores3{
+    background-color: #e0a246;
+}
+
+.boxiindicadores4{
+    background-color: #df9019;
+}
+
+
+#indicador1, #indicador2, #indicador3, #indicador4{
+    font-weight: normal;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.titulo_indicadores{
+    height: 2rem;
+    font-size: 1.5rem;
+    background-color: transparent;
 }

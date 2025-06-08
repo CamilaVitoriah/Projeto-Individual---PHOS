@@ -16,10 +16,17 @@
                         label: 'Impacto dos seus dias',
                         data: valores,
                         fill: false,
-                        borderColor: 'rgb(75, 192, 192)',
+                        borderColor: 'rgb(216, 142, 30)',
                         tension: 0.3
-                    }]
-                },
+                    },
+                    {
+        label: 'Neutralidade',
+        data: [4, 4, 4, 4,4, 4,4],
+        borderColor: '#41577c',
+        backgroundColor: '#41577c',
+        borderWidth: 1
+      }
+                ]},
                 options: {
                     responsive: true,
                     plugins: {
