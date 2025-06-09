@@ -8,7 +8,8 @@
     <title>PHOS - Cadastro</title>
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="icon" href="./assets/icon/fmt-logo.png" type="image/png">
   <script src="./js/sessao.js"></script>
 </head>
 
@@ -38,8 +39,8 @@
     <div class="logo">PHOS</div>
     <nav>
         <a href="index.html">HOME</a>
-        <a href="#login.html">QUEM SOMOS</a>
-        <a href="simulador.html">LIFESTYLE</a>
+        <a href="sobre.html">QUEM SOMOS</a>
+        <a href="lifestyle.HTML">LIFESTYLE</a>
         <a href="cadastro.html">PARTICIPE</a>
     </nav>
  </header>
@@ -63,7 +64,7 @@
     <div class="cadastro">
         <div class="form-cadastro">
             <div class="cadastro-logo">
-                <img src="logo phos" alt="Logo PHOS"></div>
+                <img src="./assets/icon/fmt-lampião.png" alt="Logo PHOS"></div>
                 <h2 class="cadastro-titulo">Cadastrar</h2>
 
                 <label for="input_nome">Nome</label>
@@ -75,9 +76,9 @@
                  <label for="input_email">Email</label>
                  <input type="email" id="input_email" placeholder="email">
                  <label for="input_senha">Senha</label>
-                 <input type="text" id="senha_input" placeholder="senha">
+                 <input type="password" id="senha_input" placeholder="senha">
                  <label for="input_senha2">Confirmar Senha</label>
-                 <input type="text" id="confirmacao_senha_input" placeholder="Confirme a senha">
+                 <input type="password" id="confirmacao_senha_input" placeholder="Confirme a senha">
 
                  <p class="login-link">Já possui conta? <a href="login.html">Faça login</a></p>
                  <button onclick="cadastrar()">Cadastrar</button>

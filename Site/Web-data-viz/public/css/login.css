@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   padding: 60px 20px;
-  background-color: red;
 }
 
 .login-form {
@@ -35,13 +34,15 @@ label {
   font-weight: bold;
 }
 
-input {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #1c120a;
-  color: white;
-  border: 1px solid #555;
+input{
+  width: 22rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:#2b1a10ae;
+    border: 1px solid #888;
+    color: #ffffff;
 }
 
 input::placeholder {
@@ -58,6 +59,13 @@ input::placeholder {
   color: #e0a246;
   text-decoration: underline;
   font-weight: bold;
+}
+
+.cadastro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .login-button {

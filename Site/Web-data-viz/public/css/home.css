@@ -140,32 +140,32 @@ margin-top: 8px;
     /* background-color: rgb(205, 249, 223); */
 }
 
-.home3-carrosel-voltar{
-  border: 3px solid coral;
- width: 4rem;
- height: 4rem;
-  margin-right: 1rem;
-}
+
 
 .home3-carrosel-imagem{
  width: 85%;
  height:100%;
  border: 2px solid #e0a246;
  /* background-color: #e0a246; */
+ overflow: hidden;
+ 
+}
+
+.contener{
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+    transform: translateX(0);
+    height: 400%;
+
 }
 
 .home3-carrosel-imagem img{
  width: 100%;
  height:100%;
+object-fit: cover;
 
 }
 
-.home3-carrosel-passar{
- border: 3px solid coral;
- width: 4rem;
- height: 4rem;
- margin-left: 1rem;
-}
 
 .img1{
     width: 80%;
