@@ -1,9 +1,11 @@
+
+
 main{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-  background-color: #2b1a10;
+  background-color: #180e08;
 }
 .cadastro{
 margin-top: 2rem;

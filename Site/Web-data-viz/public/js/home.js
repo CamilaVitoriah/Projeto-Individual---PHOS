@@ -2,18 +2,20 @@ function faca() {
   window.location.href = "./cadastro.html";
 }
 
-const box = document.getElementById('img'); // é o .contener
-const imagens = document.querySelectorAll('#img img'); // as imagens dentro
+const box = document.querySelector('.conteiner'); 
+const imagens = document.querySelectorAll('.conteiner img');
 let contador = 0;
 
 function carrosel() {
   contador++;
 
-  if (contador >= imagens.length) {
+  if (contador > imagens.length -3) {
     contador = 0;
   }
 
-  box.style.transform = `translateX(-${contador * 100}%)`;
+
+
+  box.style.transform = `translateX(${-contador * 1250}px)`;
 }
 
-setInterval(carrosel, 4000);
+setInterval(carrosel, 2000);
